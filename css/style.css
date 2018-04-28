@@ -1,0 +1,80 @@
+.box{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	max-width: 800px;
+	min-width: 320px;
+}
+.box .banner{
+	width: 100%;
+	height: auto;
+}
+.box .banner img{
+	display: block;
+	width: 100%;
+}
+.box .about{
+	width:94%;
+	padding:3%;
+}
+.box .about h3,.nav h3{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	border-bottom: #CCCCCC solid 1px;
+	line-height: 30px;
+}
+.box .about-main{
+	padding:5px 0px;
+}
+.box .about-main p{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 25px;
+	text-indent: 2rem;
+}
+.video{
+	width:100%;
+	height: auto;
+}
+.box .nav{
+	width:94%;
+	height:auto;
+	line-height: 30px;
+	padding:0 3%;
+}
+.box .nav ul{
+	width: 90%;
+	padding:0 5%;
+}
+.box .nav ul li{
+	list-style: none;
+	text-align: center;
+	background:#ffc101;
+	line-height:36px;
+	border-radius: 3px;
+	margin-top:10px;
+}
+.box .nav ul li a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:#ffffff;
+	text-decoration: none;
+}
+.video video{
+	width:100%;
+	height:300px;
+}
+.footer {
+	width: 100%;
+	height: 80px;
+}
+.footer p{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-align: center;
+	color: #CCCCCC;
+	line-height: 80px;
+}
