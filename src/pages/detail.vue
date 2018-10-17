@@ -9,7 +9,7 @@
 		 </div>
 
 		 <div class="videomain">
-			<h3>表白专用</h3>
+			<h3>模板详情(detailid={{detailid}})</h3>
 			<p>模板说明：发射点发射点发射点发射点发射点</p>
 			</div>	
 
@@ -17,7 +17,14 @@
 </template>
 <script>
 export default {
-    
+    data(){
+		return{
+			detailid:""	
+		}
+	},
+	mounted:function(){
+       this.detailid=this.$route.params.id;
+	}
 }
 </script>
 

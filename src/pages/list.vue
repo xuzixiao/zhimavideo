@@ -1,13 +1,13 @@
 <template>
     <div class="list">
 	<div class="list-title">
-		<h3>文哥推荐</h3>
+		<h3>当前分类{{listid}}</h3>
 	</div>
 	<div class="list-main">
 			<div class="wrapper">
 				<ul class="wall">
 					<li class="article">
-						<router-link to="/detail">
+						<router-link to="/detail/1">
 							<img src="/static/images/7.jpg" />
 							<p>视频名称</p>
 							<small>￥16.6</small>
@@ -34,11 +34,10 @@ export default {
 		}
 
 	},
-	created:function(){
-
-		
+	mounted:function(){
+		this.listid=this.$route.params.id;
+   		//console.log(this.$route.params.id);
 	}
-
 }
 </script>
 <style>
