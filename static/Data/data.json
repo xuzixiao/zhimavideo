@@ -1,0 +1,90 @@
+{
+    "about": {
+        "title": "我为梦想代言",
+        "concent": "我们因梦想而伟大，所有的成功者都是大梦想家：在冬夜的火堆旁，在阴天的雨雾中，梦想着未来。有些人让梦想悄然绝灭，有些人则细心培育、维护，直到它安然度过困境，迎来光明和希望，而光明和希望总是降临在那些真心相信梦想一定会成真的人身上"
+    },
+    "banner":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539839631592&di=64fbcbb7bc7631bb751558ab01a511a0&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F014e135a3cc2cda801206ed3278340.jpg%401280w_1l_2o_100sh.jpg",
+    "nav": [
+        {
+            "id": 1,
+            "sortid": 1,
+            "name": "推荐视频"
+        },
+        {
+            "id": 2,
+            "sortid": 2,
+            "name": "热门视频"
+        },
+        {
+            "id": 3,
+            "sortid": 3,
+            "name": "表白视频"
+        }
+    ],
+    "video": [
+        {
+            "id": 1,
+            "navid": 1,
+            "money":16,
+            "fromnav":"推荐视频",
+            "logo":"/static/images/12.jpg",
+            "title": "小妹妹娱乐视频(推荐视频)",
+            "concent": "提供2张照片https://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.html",
+            "videolink": "/static/video/video.mp4"
+        }, {
+            "id": 2,
+            "navid": 2,
+            "money":16,
+            "logo":"/static/images/4.jpg",
+            "fromnav":"热门视频",
+            "title": "小妹妹娱乐视频(热门视频)",
+            "concent": "提供2张照片https://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.html",
+            "videolink": "/static/video/video.mp4"
+        }, {
+            "id": 3,
+            "navid": 3,
+            "money":16,
+            "fromnav":"表白视频",
+            "logo":"/static/images/6.jpg",
+            "title": "小妹妹娱乐视频(表白视频)",
+            "concent": "提供2张照片https://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.html",
+            "videolink": "/static/video/video.mp4"
+        }, {
+            "id": 4,
+            "navid": 3,
+            "money":16,
+            "logo":"/static/images/7.jpg",
+            "fromnav":"表白视频",
+            "title": "小妹妹娱乐视频(表白视频)",
+            "concent": "提供2张照片https://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.html",
+            "videolink": "/static/video/video.mp4"
+        }, {
+            "id": 5,
+            "navid": 2,
+            "money":16,
+            "logo":"/static/images/8.jpg",
+            "fromnav":"热门视频",
+            "title": "小妹妹娱乐视频(热门视频)",
+            "concent": "提供2张照片https://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.html",
+            "videolink": "/static/video/video.mp4"
+        }, {
+            "id": 6,
+            "navid": 1,
+            "money":16,
+            "logo":"/static/images/12.jpg",
+            "fromnav":"推荐视频",
+            "title": "小妹妹娱乐视频(推荐视频)",
+            "concent": "提供2张照片https://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.html",
+            "videolink": "/static/video/video.mp4"
+        }, {
+            "id": 7,
+            "navid": 2,
+            "money":16,
+            "logo":"/static/images/4.jpg",
+            "fromnav":"热门视频",
+            "title": "小妹妹娱乐视频(热门视频)",
+            "concent": "提供2张照片https://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.htmlhttps://www.html-js.cn/details/EkHZxtmT.html",
+            "videolink": "/static/video/video.mp4"
+        }
+    ]
+}

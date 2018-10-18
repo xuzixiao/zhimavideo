@@ -1,13 +1,30 @@
 <template>
     <div class="about">
-        <h3>文哥有话说</h3>
+        <h3>{{title}}</h3>
         <div class="about-main">
-            <p>我要说点啥我要说点啥我要说点啥我要说点啥我要说点啥我要说点啥我要说点啥我要说点啥我要说点啥我要说点啥我要说点啥我要说点啥</p>
+            <p>{{concent}}</p>
         </div>
     </div>
 </template>
 <script>
 export default {
+    data(){
+        return{
+            title:"",
+            concent:""
+        }
+    },
+    mounted(){
+        this.$axios({
+            url:"/about",
+            method:"POST"
+        }).then(res=>{
+            this.title=res.data.title;
+            this.concent=res.data.concent;
+        },error=>{
+            console.log(error);
+        })
+    }
     
 }
 </script>
