@@ -1,10 +1,11 @@
 <template>
-        <video-player  class="video-player vjs-custom-skin"
+        <video-player  class="“video-player vjs-custom-skin"
             ref="videoPlayer"
             :playsinline="true"
             :options="playerOptions"
-            :poster="videologo"
-            :sources.src="videohref"
+            @play="onPlayerPlay($event)" 
+            @pause="onPlayerPause($event)" 
+            @statechanged="playerStateChanged($event)" 
         ></video-player>
 </template>
 <script>
@@ -31,14 +32,12 @@ export default {
         sources: [
           {
             type: "",
-            // src:""
-            //src: "/static/video/video.mp4" //url地址
-             //src: 'http://www.html5videoplayer.net/videos/madagascar3.mp4'//url地址
-             src: this.videohref
+            src: "/static/video/video.mp4" //默认url地址
            }
         ],
-        poster: this.videologo, //你的封面地址
-        //poster: "/static/images/12.jpg", //你的封面地址
+       // poster: this.videologo, //你的封面地址
+        poster:"",
+        //poster: "", //你的封面地址
         //width: document.documentElement.clientWidth,
         notSupportedMessage: "此视频暂无法播放，请稍后再试", //允许覆盖Video.js无法播放媒体源时显示的默认信息。
         controlBar: {
@@ -50,10 +49,24 @@ export default {
       }
     };
   },
-  computed:{
-      player () {
-        return this.$refs.videoPlayer.player
-        }
+  watch:{
+     videohref:function(val){
+       this.$refs.videoPlayer.player.src(val)
+     },
+     videologo:function(val){
+        this.$refs.videoPlayer.player.poster(val)
+     }
+  },
+  methods:{
+    onPlayerPlay (player) {
+      
+    },
+    onPlayerPause (player) {
+      
+    },
+    playerStateChanged (player) {
+      
+    }
   }
 };
 </script>

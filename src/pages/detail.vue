@@ -35,19 +35,16 @@ export default {
 	   }).then(res=>{
 		   let vlist=res.data;
 		   for(let i=0;i<vlist.length;i++){
-			   if(vlist[i].id=this.detailid){
+			   if(vlist[i].id==this.detailid){
 				   this.videoInfo=vlist[i];
 			   }
 		   }
 	   },error=>{})
 	},
-	computed:{
-		 
-	},
 	methods:{
 
 
-	}
+	},
 }
 </script>
 
